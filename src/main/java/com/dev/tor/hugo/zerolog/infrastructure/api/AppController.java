@@ -29,7 +29,7 @@ public class AppController {
         FibonacciCustomLogger.Execute(LIMIT_VALUE);
         sw.stop();
 
-        log.info("Execution: {}", sw.prettyPrint());
-        log.info("Execution: {}", sw.shortSummary());
+        log.info("Executions: {}", sw.prettyPrint());
+        log.info("Executions: {}", sw.shortSummary());
     }
 }
