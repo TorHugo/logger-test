@@ -15,7 +15,7 @@ public abstract class FibonacciSlf4j {
         for (int i = 2; i < limitValue; i++) {
             num2 += num1;
             num1 = num2 - num1;
-            log.info("Executing Fibonacci: {}", num1);
+            log.info("Executing Fibonacci: {}", i);
         }
     }
 }
